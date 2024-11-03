@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Happy Birthday, YUKTU! 🎉</h1>
+        <p>Welcome to your special page, filled with surprises!</p>
+
+        <!-- Balloon Animation -->
+        <div class="balloons">
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+            <div class="balloon"></div>
+        </div>
+
+        <!-- Photo Slideshow -->
+        <div class="slideshow">
+            <img id="slideImage" src="photo1.jpg" alt="Memory">
+            <button onclick="nextSlide()">Next Photo</button>
+        </div>
+
+        <!-- Love Notes -->
+        <div class="love-notes">
+            <h2>Reasons I Love You ❤️</h2>
+            <button onclick="showNextReason()">Show Next Reason</button>
+            <p id="loveReason">Click to reveal...</p>
+        </div>
+
+        <!-- Mini Quiz Game -->
+        <div class="quiz">
+            <h2>How well do you know us?</h2>
+            <p>Where did we first meet?</p>
+            <input type="text" id="quizAnswer" placeholder="Type your answer here">
+            <button onclick="checkAnswer()">Submit</button>
+            <p id="quizFeedback"></p>
+        </div>
+
+        
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
